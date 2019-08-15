@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    
+}
+.container{
+    border: black solid 5px;
+    width: 510px;
+    height: 510px;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    border: black solid 1px;
+    text-align: center;
+    font-size: 25px ;
+    padding: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+     
+}
+button{
+    margin: 10px auto;
+    display: block;
+    padding: 5px 10px;
+}
+#countDown{
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    width: 50px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraf{
+    position:relative;
+    font-size: 100px;
+    text-align: center;
+   
+    
+}
