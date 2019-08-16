@@ -17,6 +17,7 @@ startButton.addEventListener("click",createTabel);
 
 function createTabel(){
     countDown.innerHTML = seconds;
+    p.innerHTML = "";
     container.style.display = "flex";
     let countStart = setInterval(count,1000);
 
